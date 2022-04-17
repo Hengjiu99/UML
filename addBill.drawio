@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T06:25:13.617Z" agent="5.0 (Windows)" etag="ak36XwGZO7EdIcZtwdIZ" version="17.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-17T06:26:38.097Z" agent="5.0 (Windows)" etag="LULTzEy5O3kT6aTJITML" version="17.4.5" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="新建账单">
     <mxGraphModel dx="1113" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -410,7 +410,7 @@
         <mxCell id="MZcT5usySFBGQdCcSRE--18" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="MZcT5usySFBGQdCcSRE--17">
           <mxGeometry x="45" y="270" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MZcT5usySFBGQdCcSRE--19" value="[type == income ]&#xa;deleteIncome(bill)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="MZcT5usySFBGQdCcSRE--6" target="MZcT5usySFBGQdCcSRE--18">
+        <mxCell id="MZcT5usySFBGQdCcSRE--19" value="[type == income]&#xa;deleteIncome(bill)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="MZcT5usySFBGQdCcSRE--6" target="MZcT5usySFBGQdCcSRE--18">
           <mxGeometry x="-0.2602" relative="1" as="geometry">
             <mxPoint x="530" y="397" as="sourcePoint" />
             <mxPoint x="735" y="369.99999999999994" as="targetPoint" />

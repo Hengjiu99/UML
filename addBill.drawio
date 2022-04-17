@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T13:15:57.502Z" agent="5.0 (Windows)" etag="G-jMdCbYoOe1ix5srmTh" version="17.4.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-04-17T13:16:34.989Z" agent="5.0 (Windows)" etag="VKDkZ4ecRTyhilgQAK75" version="17.4.5" type="github" pages="9">
   <diagram id="nyk7wZq9YSav6TXbFICA" name="新建账单">
     <mxGraphModel dx="974" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="S270AGYI4S_tVvohYFO--8" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
+        <mxCell id="S270AGYI4S_tVvohYFO--8" value="&lt;br&gt;User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
           <mxGeometry x="150" y="40" width="30" height="440" as="geometry" />
         </mxCell>
         <mxCell id="S270AGYI4S_tVvohYFO--10" value=":DatabaseHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
@@ -521,7 +521,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fa8IHeV6Zq_VHzWzfDuU-6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
+        <mxCell id="Fa8IHeV6Zq_VHzWzfDuU-6" value="&lt;br&gt;User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
           <mxGeometry x="150" y="40" width="30" height="550" as="geometry" />
         </mxCell>
         <mxCell id="Fa8IHeV6Zq_VHzWzfDuU-7" value=":DatabaseHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
@@ -743,7 +743,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gYCKwJ41kSr15FlRjfjR-8" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
+        <mxCell id="gYCKwJ41kSr15FlRjfjR-8" value="&lt;br&gt;User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
           <mxGeometry x="150" y="40" width="30" height="410" as="geometry" />
         </mxCell>
         <mxCell id="gYCKwJ41kSr15FlRjfjR-9" value="return billAct" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="gYCKwJ41kSr15FlRjfjR-6" target="gYCKwJ41kSr15FlRjfjR-2">

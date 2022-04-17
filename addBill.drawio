@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T12:21:34.746Z" agent="5.0 (Windows)" etag="-ZMesyepWKu4nOHtOC_i" version="17.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-17T12:39:59.295Z" agent="5.0 (Windows)" etag="X_2UCofseaQKNp153pLO" version="17.4.5" type="github" pages="7">
   <diagram id="nyk7wZq9YSav6TXbFICA" name="新建账单">
     <mxGraphModel dx="974" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,6 +299,72 @@
             <Array as="points">
               <mxPoint x="410" y="420" />
               <mxPoint x="180" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v4NHsNLexo3ohi-gKIQN" name="删除帐单">
+    <mxGraphModel dx="974" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S270AGYI4S_tVvohYFO--5" value="detailAct:DetailActivity" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="130" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="S270AGYI4S_tVvohYFO--5">
+          <mxGeometry x="60" y="80" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--8" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="30" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--10" value=":DatabaseHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--11" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="S270AGYI4S_tVvohYFO--10">
+          <mxGeometry x="45" y="100" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--12" value="find(time)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="S270AGYI4S_tVvohYFO--6" target="S270AGYI4S_tVvohYFO--11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="225.0000000000001" as="sourcePoint" />
+            <mxPoint x="660" y="225.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="180" />
+              <mxPoint x="370" y="180" />
+              <mxPoint x="410" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--13" value="return records" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="S270AGYI4S_tVvohYFO--11" target="S270AGYI4S_tVvohYFO--6">
+          <mxGeometry x="-0.0153" y="-1" relative="1" as="geometry">
+            <mxPoint x="640" y="269.9999999999999" as="sourcePoint" />
+            <mxPoint x="470" y="269.9999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="410" y="200" />
+              <mxPoint x="340" y="200" />
+              <mxPoint x="320" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--14" value="chooseTime()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="S270AGYI4S_tVvohYFO--8" target="S270AGYI4S_tVvohYFO--6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="210.0000000000001" as="sourcePoint" />
+            <mxPoint x="460" y="210.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S270AGYI4S_tVvohYFO--15" value="return listView" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="S270AGYI4S_tVvohYFO--6" target="S270AGYI4S_tVvohYFO--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290.33" y="289.9999999999999" as="sourcePoint" />
+            <mxPoint x="169.99666666666653" y="289.9999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="260" y="220" />
+              <mxPoint x="170" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T04:06:05.778Z" agent="5.0 (Windows)" etag="96U-l60uchKJiywPnwLK" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-17T04:06:56.541Z" agent="5.0 (Windows)" etag="8vZRB7-DuUbLKgcpitOm" version="17.4.5" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="新建账单">
     <mxGraphModel dx="988" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
           <mxGeometry x="300" y="80" width="100" height="490" as="geometry" />
         </mxCell>
         <mxCell id="cCf2dESbDzn36nv4dhJJ-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cCf2dESbDzn36nv4dhJJ-1">
-          <mxGeometry x="45" y="60" width="10" height="400" as="geometry" />
+          <mxGeometry x="45" y="60" width="10" height="410" as="geometry" />
         </mxCell>
         <mxCell id="DGF6NdVez3dkl7NhgMUh-1" value="changeBill(bill)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="cCf2dESbDzn36nv4dhJJ-1">
           <mxGeometry relative="1" as="geometry">
@@ -260,16 +260,6 @@
         <mxCell id="cCf2dESbDzn36nv4dhJJ-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cCf2dESbDzn36nv4dhJJ-21">
           <mxGeometry x="45" y="60" width="10" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="DGF6NdVez3dkl7NhgMUh-2" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="cCf2dESbDzn36nv4dhJJ-2" target="cCf2dESbDzn36nv4dhJJ-22">
-          <mxGeometry x="-0.0153" y="-1" relative="1" as="geometry">
-            <mxPoint x="413.76" y="189.99999999999994" as="sourcePoint" />
-            <mxPoint x="240" y="220" as="targetPoint" />
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="320" y="230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="N5u_wsXnKTuf3sAGj3tr-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="cCf2dESbDzn36nv4dhJJ-5" target="cCf2dESbDzn36nv4dhJJ-2">
           <mxGeometry x="-0.0153" y="-1" relative="1" as="geometry">
             <mxPoint x="450.5" y="245" as="sourcePoint" />
@@ -323,6 +313,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="f73DxWCY4oRdMNJ393kj" name="删除账单">
+    <mxGraphModel dx="1185" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>

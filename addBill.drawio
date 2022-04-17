@@ -1,6 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T06:53:38.405Z" agent="5.0 (Windows)" etag="SaNbeG-rpY5ieNSfaZ7F" version="17.4.5" type="github" pages="4">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="新建账单">
-    <mxGraphModel dx="1113" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-04-17T11:24:35.703Z" agent="5.0 (Windows)" etag="AHc2dz5XNPK6_zZA9KXY" version="17.4.5" type="github" pages="5">
+  <diagram id="nyk7wZq9YSav6TXbFICA" name="新建账单">
+    <mxGraphModel dx="887" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-1" value=":MainActivity" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="100" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="AAbAMPZxrT5IqDy01HVE-1">
+          <mxGeometry x="45" y="60" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-3" value="toAddActivity()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-19" target="AAbAMPZxrT5IqDy01HVE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-4" value=":AddActivity" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="AAbAMPZxrT5IqDy01HVE-4">
+          <mxGeometry x="45" y="80" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-6" value="onCreate()" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="170.0000000000001" as="sourcePoint" />
+            <mxPoint x="525" y="170.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-12" value="add_finish(View)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-2" target="AAbAMPZxrT5IqDy01HVE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="174.9999999999999" y="310" as="sourcePoint" />
+            <mxPoint x="525" y="309.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="240" />
+              <mxPoint x="460" y="240" />
+              <mxPoint x="510" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-13" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-5" target="AAbAMPZxrT5IqDy01HVE-2">
+          <mxGeometry x="-0.0153" y="-1" relative="1" as="geometry">
+            <mxPoint x="530" y="400" as="sourcePoint" />
+            <mxPoint x="355" y="411.67999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="410" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-14" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1" target="AAbAMPZxrT5IqDy01HVE-19" source="AAbAMPZxrT5IqDy01HVE-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="419.5999999999999" as="targetPoint" />
+            <mxPoint x="346.45000000000005" y="419.5999999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="400" />
+              <mxPoint x="270" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-15" value=":DatabaseHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="890" y="80" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="AAbAMPZxrT5IqDy01HVE-15">
+          <mxGeometry x="45" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-17" value="insert(record)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-5" target="AAbAMPZxrT5IqDy01HVE-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="397" as="sourcePoint" />
+            <mxPoint x="940" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-18" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.133;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-16" target="AAbAMPZxrT5IqDy01HVE-5">
+          <mxGeometry x="0.004" y="20" relative="1" as="geometry">
+            <mxPoint x="732" y="390.27" as="sourcePoint" />
+            <mxPoint x="530" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-19" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=60;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="30" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-5" target="AAbAMPZxrT5IqDy01HVE-2">
+          <mxGeometry x="-0.0153" y="-1" relative="1" as="geometry">
+            <mxPoint x="520.76" y="189.99999999999994" as="sourcePoint" />
+            <mxPoint x="350" y="189.99999999999994" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="410" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-23" value=":Record" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-24" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="AAbAMPZxrT5IqDy01HVE-23">
+          <mxGeometry x="45" y="160" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-25" value="&#xa;record = Record(isCost,type,value,time,remark)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-5" target="AAbAMPZxrT5IqDy01HVE-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="329.9999999999999" as="sourcePoint" />
+            <mxPoint x="700" y="329.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="260" />
+              <mxPoint x="580" y="260" />
+              <mxPoint x="710" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AAbAMPZxrT5IqDy01HVE-26" value="return record" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="AAbAMPZxrT5IqDy01HVE-24" target="AAbAMPZxrT5IqDy01HVE-5">
+          <mxGeometry x="-0.0153" y="-1" relative="1" as="geometry">
+            <mxPoint x="710.76" y="349.99999999999994" as="sourcePoint" />
+            <mxPoint x="540" y="349.99999999999994" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="750" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="新建账单Old">
+    <mxGraphModel dx="887" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +253,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="1pNWKkQ92ExBm-Ee09KH" name="修改账单">
+  <diagram id="1pNWKkQ92ExBm-Ee09KH" name="修改账单Old">
     <mxGraphModel dx="1113" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -389,7 +516,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="f73DxWCY4oRdMNJ393kj" name="删除账单">
+  <diagram id="f73DxWCY4oRdMNJ393kj" name="删除账单Old">
     <mxGraphModel dx="1113" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -626,7 +753,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="z717ssFfkoLufN1PW2o6" name="查看账单">
+  <diagram id="z717ssFfkoLufN1PW2o6" name="查看账单Old">
     <mxGraphModel dx="1113" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />

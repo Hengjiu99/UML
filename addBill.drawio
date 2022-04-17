@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T04:02:27.624Z" agent="5.0 (Windows)" etag="NeO0TyEKBh2B9_431Rhu" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-17T04:04:45.203Z" agent="5.0 (Windows)" etag="Um8v9QzUc14Q4pvI88GB" version="17.4.5" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="新建账单">
     <mxGraphModel dx="988" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cCf2dESbDzn36nv4dhJJ-4" value=":addBillActivity" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
+        <mxCell id="cCf2dESbDzn36nv4dhJJ-4" value=":changeBillActivity" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="480" y="80" width="100" height="490" as="geometry" />
         </mxCell>
         <mxCell id="cCf2dESbDzn36nv4dhJJ-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cCf2dESbDzn36nv4dhJJ-4">

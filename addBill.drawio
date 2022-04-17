@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T12:17:11.544Z" agent="5.0 (Windows)" etag="iVBxhb2AKPMKgcAOmwhG" version="17.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-17T12:17:20.273Z" agent="5.0 (Windows)" etag="ko8v8fivzCL3Zj-MVZMG" version="17.4.5" type="github" pages="6">
   <diagram id="nyk7wZq9YSav6TXbFICA" name="新建账单">
     <mxGraphModel dx="974" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
           <mxGeometry x="55" y="60" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ckYRjC0mzaNd1fG2R-xb-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="chx8SXSCFWW8nlBoQHmH-1">
-          <mxGeometry x="45" y="280" width="10" height="50" as="geometry" />
+          <mxGeometry x="55" y="280" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="chx8SXSCFWW8nlBoQHmH-3" value="toDetailActivity()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" source="chx8SXSCFWW8nlBoQHmH-10" target="chx8SXSCFWW8nlBoQHmH-2">
           <mxGeometry relative="1" as="geometry">

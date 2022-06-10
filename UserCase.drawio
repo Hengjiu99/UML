@@ -1,34 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T01:17:10.562Z" agent="5.0 (Windows)" etag="XOWnNs6bfAXJNzTtlDQD" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T01:53:05.682Z" agent="5.0 (Windows)" etag="BJPzAiF-RsKlTT0Z8Pfw" version="19.0.3" type="github">
   <diagram id="m0MK1c2iLYxbF6T6C__M" name="Page-1">
-    <mxGraphModel dx="1422" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="430" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-2" value="&lt;div&gt;&lt;b&gt;查看全国疫情速报&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="130" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-3" value="&lt;div&gt;&lt;b&gt;&lt;span&gt;全国疫情信息&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-3" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;全国疫情信息&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="60" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-6" value="&lt;div&gt;&lt;b&gt;&lt;span&gt;各地疫情信息&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-6" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;各地疫情信息&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="130" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-7" value="&lt;div&gt;&lt;b&gt;&lt;span&gt;关注地疫情信息&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-7" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;关注地疫情信息&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="340" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-10" value="&lt;div&gt;&lt;b&gt;查看重点关注地区&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="340" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-11" value="&lt;div&gt;&lt;b&gt;&lt;span&gt;关注地风险等级&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-11" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;关注地风险等级&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="410" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-12" value="&lt;div&gt;&lt;b&gt;&lt;span&gt;关注地订阅列表&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-12" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;关注地订阅列表&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="270" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-13" value="&lt;div&gt;&lt;b&gt;&lt;span&gt;中高风险地区&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-13" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;中高风险地区&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="200" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="2PBKutjZ7Rk_3-GeyI32-1" target="2PBKutjZ7Rk_3-GeyI32-2">
@@ -82,13 +82,13 @@
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-25" value="&lt;b&gt;查看谣言列表&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="545" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-26" value="&lt;b&gt;各类型谣言统计&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-26" value="&lt;span&gt;各类型谣言统计&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="480" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-27" value="&lt;b&gt;谣言列表详情&lt;br&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-27" value="&lt;span&gt;谣言列表详情&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="550" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2PBKutjZ7Rk_3-GeyI32-28" value="&lt;b&gt;谣言趋势分析&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-28" value="&lt;span&gt;谣言趋势分析&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="420" y="620" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="2PBKutjZ7Rk_3-GeyI32-25" target="2PBKutjZ7Rk_3-GeyI32-26">
@@ -116,7 +116,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-34" value="&lt;b&gt;查看疫情地图&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="745" width="120" height="50" as="geometry" />
+          <mxGeometry x="240" y="745" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2PBKutjZ7Rk_3-GeyI32-35" value="当日疫情地图" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="690" width="120" height="45" as="geometry" />
@@ -150,6 +150,9 @@
             <mxPoint x="300" y="540" as="sourcePoint" />
             <mxPoint x="350" y="490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2PBKutjZ7Rk_3-GeyI32-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2PBKutjZ7Rk_3-GeyI32-34" target="2PBKutjZ7Rk_3-GeyI32-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
